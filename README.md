@@ -48,7 +48,7 @@ flowchart TD
 
     BE -->|SQLAlchemy async| PG
     BE -->|asyncio-redis| RD
-    WS -->|Pub/Sub chat:{match_id}| RD
+    WS -->|"Pub/Sub chat:{match_id}"| RD
     WS -->|save_message| PG
 
     CB -->|schedule task| RD
@@ -281,6 +281,4 @@ open http://localhost/api/docs
 
 ## Поставляемые материалы
 
-- [ ] [Demo Video / Pitch]()
-- [ ] [Презентация]()
-- [ ] [Live Demo]()
+*Soon...*

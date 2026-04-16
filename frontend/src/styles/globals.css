@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base reset for dark theme */
+@layer base {
+  html {
+    @apply bg-background text-white;
+  }
+
+  body {
+    @apply min-h-screen font-sans;
+  }
+
+  /* Custom scrollbar for dark theme */
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-border;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-twitch-purple;
+  }
+}

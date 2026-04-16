@@ -1,0 +1,16 @@
+{
+  "name": "StreamMatch",
+  "short_name": "StreamMatch",
+  "description": "Найди стримера для коллаба — Tinder для Twitch-стримеров",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0E0E10",
+  "theme_color": "#9146FF",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

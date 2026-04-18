@@ -233,7 +233,6 @@ frontend ──> nginx
 ### 5. Миграции базы данных
 
 ```bash
-# Применить миграции (выполняется автоматически при первом запуске backend)
 docker compose exec backend alembic upgrade head
 ```
 
